@@ -1,0 +1,17 @@
+# 多链推理配置模板预留。
+runtime:
+  device: cuda
+  seed: 42
+
+inference:
+  model_preset: multimer
+  db_preset: full_dbs
+  num_recycle: 3
+  msa_channel: 256
+  pair_channel: 128
+  num_heads_msa: 8
+  num_heads_pair: 4
+  transition_multiplier: 4
+  num_evoformer_blocks: 2
+  max_template_date: "2021-11-01"
+  run_relaxation: false

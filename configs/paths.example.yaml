@@ -1,0 +1,10 @@
+# 数据与输出路径统一在此管理，避免把大文件直接放进仓库。
+project:
+  name: alphafold-v2-reproduction
+
+paths:
+  params_dir: /absolute/path/to/alphafold/params
+  params_checkpoint: /absolute/path/to/compatible_model_checkpoint.pt
+  databases_dir: /absolute/path/to/alphafold/databases
+  output_root: /absolute/path/to/alphafold/outputs
+  cache_dir: /absolute/path/to/alphafold/cache

@@ -1,0 +1,7 @@
+torch>=2.3
+numpy>=1.26
+scipy>=1.12
+einops>=0.8
+biopython>=1.84
+pyyaml>=6.0.1
+tqdm>=4.66
